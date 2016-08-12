@@ -11,6 +11,7 @@ using Repository.GenericRepos;
 
 namespace lesson7ConsoleApp
 {
+    //mán egyszer commitótam, ez a második
     class Program
     {
         static string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Kurzus\14\lesson7ConsoleApp\Entities\lesson7_nhl_create.mdf;Integrated Security=True";
