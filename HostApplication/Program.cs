@@ -10,6 +10,7 @@ namespace HostApplication
 {
     class Program
     {
+        //commitcomm
         static void Main(string[] args)
         {
             using (ServiceHost host = new ServiceHost(typeof(NHLStatService)))
