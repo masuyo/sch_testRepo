@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLService", "NHLService\NH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostApplication", "HostApplication\HostApplication.csproj", "{C285B1F9-54D2-4C8D-A51F-712AFB371457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "ClientApplication\ClientApplication.csproj", "{217BDBA8-AA8E-4375-BAA9-03B6751C4B59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18021BC5-358A-490E-987C-7C39DD163E59} = {18021BC5-358A-490E-987C-7C39DD163E59}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +44,10 @@ Global
 		{C285B1F9-54D2-4C8D-A51F-712AFB371457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C285B1F9-54D2-4C8D-A51F-712AFB371457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C285B1F9-54D2-4C8D-A51F-712AFB371457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217BDBA8-AA8E-4375-BAA9-03B6751C4B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217BDBA8-AA8E-4375-BAA9-03B6751C4B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217BDBA8-AA8E-4375-BAA9-03B6751C4B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217BDBA8-AA8E-4375-BAA9-03B6751C4B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
